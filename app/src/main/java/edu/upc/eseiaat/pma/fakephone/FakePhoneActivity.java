@@ -17,21 +17,18 @@ public class FakePhoneActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_fake_phone);
 
-    txt_numbers = (TextView) findViewById(R.id.txt_numbers);}
+    txt_numbers = (TextView) findViewById(R.id.txt_numbers);
+    n = "";}
 
     public void clicnum (View v) {
         Button btn = (Button) v;
         String number = btn.getText().toString();
-        txt_numbers.setText(number);
-
+        n = number + n;
+        txt_numbers.setText(n);
     }
 
     /*public void clicat (View v) {
         Button boto = (Button) v;
         Log.i("click", "Has clicat el botó!");
     }*/
-
-/*
-String n = "";
-    n = number + n;*/
 }
