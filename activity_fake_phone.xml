@@ -154,7 +154,7 @@
         android:layout_alignLeft="@+id/btn_7"
         android:layout_alignStart="@+id/btn_7"
         android:onClick="clicdel"
-        android:text="Button" />
+        android:text="@string/delete" />
 
 
 </RelativeLayout>

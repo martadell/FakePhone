@@ -31,6 +31,7 @@ public class FakePhoneActivity extends AppCompatActivity {
     public void clicdel (View v) {
         Button btn = (Button) v;
         txt_numbers.setText("");
+        n="";
     }
 
   /*  public void clicall (View v) {
