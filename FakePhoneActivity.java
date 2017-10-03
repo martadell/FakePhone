@@ -34,10 +34,13 @@ public class FakePhoneActivity extends AppCompatActivity {
         n="";
     }
 
-  /*  public void clicall (View v) {
+    public void clicall (View v) {
         Button btn = (Button) v;
-        Toast.makeText(this, R.string.calling + txt_numbers.getText(), Toast.LENGTH_LONG).show();
-    }/*
+        String number = txt_numbers.getText().toString();
+        number = getString(R.string.calling) + " " + number + "...";
+        Toast.makeText(this, number, Toast.LENGTH_LONG).show();
+        finish();
+    }
 
     /*public void clicat (View v) {
         Button boto = (Button) v;
